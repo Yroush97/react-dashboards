@@ -1,0 +1,49 @@
+.Head {
+  width: 100%;
+  display: flex;
+  background: #2f97b7;
+  height: 9%;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+  position: fixed;
+  z-index: 9;
+  top: 0px;
+  left: 0px;
+}
+
+.Head .logo {
+  flex: 1;
+  text-align: center;
+  width: 30%;
+}
+
+.Head .Avatar {
+  flex: 1;
+  text-align: center;
+}
+
+.Head .Avatar h3 {
+  font-family: "PT Sans", sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+}
+
+@media (max-width: 912px) {
+  .Head .logo {
+    flex: 2;
+  }
+
+  .Head .logo img {
+    width: 100px;
+  }
+
+  .Head .Avatar h3 {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 512px) {
+  .Head .Avatar h3 {
+    display: none;
+  }
+}

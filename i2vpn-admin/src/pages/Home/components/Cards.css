@@ -1,0 +1,32 @@
+.img-card {
+  max-width: 300px;
+}
+.p-card .p-card-body {
+  padding: 2rem;
+}
+@media (max-width: 500px) {
+  .p-card .p-card-title {
+    font-size: 10px !important;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  .p-card .p-card-body {
+    padding: 1rem;
+  }
+  .img-card {
+    max-width: 60px !important;
+  }
+  h1{
+    margin: 0rem 0 1rem 0;
+    font-size: 2rem;
+  }
+}
+@media (max-width: 768px) {
+  .p-card .p-card-title {
+    font-size: 1rem;   
+  }
+  .img-card {
+    max-width: 80px;
+    margin: 1.5rem 0 1rem 0;
+  } 
+}
